@@ -33,6 +33,8 @@
         margin-bottom: -100px;
     }
 
-
+    .m-5 .d-flex {
+        flex-direction: column;
+    }
 
 }
