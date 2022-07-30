@@ -7,9 +7,384 @@
     <title>Learning Hub</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/242f18f06a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <!-- navbar start -->
+    <header class="container">
+        <nav class="navbar navbar-expand-lg mb-3 style=" background-color: #FFFFFF;">
+            <div class="container-fluid">
+                <a class="navbar-brand h1" href="#">Learning Hub</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-primary" type="submit">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- carousel start -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="img-fluid" src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-flex h-50 align-items-center justify-content-center flex-column d-md-block
+                        d-sm-block
+                        d-lg-block">
+                        <div>
+                            <h1>Grow Without Limits.</h1>
+                            <p>Explore your creativity on Learning Hub, the leading platform for online
+                                courses where
+                                millions
+                                of creatives come together to take the next step in their creative journey</p>
+                            <button type="button" class="btn btn-primary py-2 px-3 mt-3">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <img class="img-fluid" src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-flex h-50 align-items-center justify-content-center d-md-block
+                        d-sm-block
+                        d-lg-block">
+                        <div>
+                            <h1>Grow Without Limits.</h1>
+                            <p>Explore your creativity on Learning Hub, the leading platform for online
+                                courses where
+                                millions
+                                of creatives come together to take the next step in their creative journey</p>
+                            <button type="button" class="btn btn-primary py-2 px-3 mt-3">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <img class="img-fluid"
+                        src="images/cover/busy-woman-casual-clothes-working-laptop-home_171337-13650.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-flex h-50 align-items-center justify-content-center d-md-block
+                        d-sm-block
+                        d-lg-block">
+                        <div>
+                            <h1>Grow Without Limits.</h1>
+                            <p>Explore your creativity on Learning Hub, the leading platform for online
+                                courses where
+                                millions
+                                of creatives come together to take the next step in their creative journey</p>
+                            <button type="button" class="btn btn-primary py-2 px-3 mt-3">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- carousel ends -->
+    </header>
+    <!-- navbar ends -->
+    <!-- courses start -->
+    <main class="container ps-5">
+        <div class="text-center m-5">
+            <h1>Discover Our Popular Courses</h1>
+            <p>Discover What You Can Create With Thousands of Inspiring Classes. Get Started for Free. Learn, Grow, and
+                Improve Your Skills With Unlimited Access.</p>
+        </div>
+
+        <!-- course card starts -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 gy-3">
+            <div class="col">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img class="img-fluid w-100" src="images/course/course-1.png"
+                                class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">The Complete UI/UX Design Guide</h5>
+                                <p class="card-text">Learn UI/UX design with this 2022 course on design.</p>
+                                <p class="card-text text-primary">Price: 200$</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img class="img-fluid w-100" src="images/course/course-2.png"
+                                class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">The Complete Python Pro Bootcamp for 2022</h5>
+                                <p class="card-text">Learn Python. Become a coder with latest skills.</p>
+                                <p class="card-text text-primary">Price: 190$</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img class="img-fluid w-100" src="images/course/course-3.png"
+                                class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Fundamentals of Digital Marketing</h5>
+                                <p class="card-text">Grow your skill set and prepare for a career in digital marketing
+                                    and e-commerce.</p>
+                                <p class="card-text text-primary">Price: 150$</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img class="img-fluid w-100" src="images/course/course-4.png"
+                                class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">How to develop creative thinking?</h5>
+                                <p class="card-text">Enhance Your Creative & Analytical Thinking Skills and Be More
+                                    Effective at Workplace</p>
+                                <p class="card-text text-primary">Price: 180$</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img class="img-fluid w-100" src="images/course/course-5.png"
+                                class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Cenematography Masterclass</h5>
+                                <p class="card-text">Learn to shoot, edit and create cinematic videos with any device.
+                                </p>
+                                <p class="card-text text-primary">Price: 350$</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img class="img-fluid w-100" src="images/course/course-6.png"
+                                class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Motion Graphics for Beginners</h5>
+                                <p class="card-text">A practical structured course on combining frame-by-frame animation
+                                    and After Effects. </p>
+                                <p class="card-text text-primary">Price: 140$</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center m-5">
+            <button type="button" class="btn btn-primary py-2 px-3">See more courses</button>
+        </div>
+        <!-- course card ends -->
+        <!-- modal starts -->
+        <div class="m-5">
+            <div class="bg-primary d-flex border rounded-3">
+                <div class=" m-5 p-2">
+                    <h2 class="text-white">Ready to join?</h2>
+                    <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum veniam cum
+                        sequi? Tempore optio
+                        deserunt, excepturi inventore veniam magnam et.</p>
+                </div>
+                <!-- Button trigger modal -->
+                <button type=" button" class="btn btn-light h-50 m-5 px-3 py-2" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Register
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- modal ends -->
+        <!-- accordion starts -->
+        <div class="text-center m-5 p-5">
+            <div class="mb-5">
+                <h1>Frequently Asked Questions</h1>
+                <p>Have any confusions? See if you can find the answers.
+                </p>
+            </div>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>What are the differences between Flexbox and Grid?</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            The very first and the most important difference between the two layout modules is that
+                            CSS Flexbox is a one-dimensional layout model whereas CSS Grid is a two-dimensional model.
+                            By one-dimensional it means a Flexbox container can either facilitate laying out things in a
+                            row, or lay them out in a column. The CSS Grid, on the other hand, can facilitate laying out
+                            items across and down at once, meaning you can work along two axes, vertically and
+                            horizontally, which the CSS Flexbox cannot do.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <strong>What is the difference between Bootstrap and Tailwind?</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Tailwind offers predesigned widgets to build a site from scratch with fast UI
+                            development. It's not an UI kit. Whereas Bootstrap comes with a set of pre-styled
+                            responsive, mobile-first components that possess a definite UI kit.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <strong>What is CSS box model?</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            The box model in CSS is a set of rules that determine how your web page is rendered on
+                            the internet. In this model, a rectangular box is generated for HTML elements. The box
+                            consists of content, padding, a border, and margin.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <strong>What is a semantic tag?</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            The HTML semantics refers to the tags that provide meaning to an HTML page rather than just
+                            presentation. It makes HTML more comprehensible by better defining the different sections
+                            and layout of web pages.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- accordion ends -->
+        <!-- trusted comapnies -->
+        <div class="d-none d-lg-block d-md-none">
+            <h1 class="text-center m-4">Trusted by over 100+ companies</h1>
+            <div class="d-flex justify-content-around mb-5 p-2">
+                <div>
+                    <img src="images/company/company-1.png" alt="">
+                </div>
+                <div>
+                    <img src="images/company/company-2.png" alt="">
+                </div>
+                <div>
+                    <img src="images/company/company-3.png" alt="">
+                </div>
+                <div>
+                    <img src="images/company/company-4.png" alt="">
+                </div>
+                <div>
+                    <img src="images/company/company-5.png" alt="">
+                </div>
+                <div>
+                    <img src="images/company/company-6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-dark m-5 p-5">
+        <div class="text-white text-center m-5 pt-3">
+            <h3>Learning Hub</h3>
+            <p>1200E, Bangla Tower, Factory Road, South Halishohor, Chattogram</p>
+            <p>Privacy Policy | Terms of use</p>
+            <div>
+                <a href="www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a> <a href="www.twitter.com"><i
+                        class="fa-brands fa-twitter"></i></a> <a href="www.linkedin.com"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
